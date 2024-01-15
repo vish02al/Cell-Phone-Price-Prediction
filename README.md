@@ -1,13 +1,14 @@
 # Cell-Phone-Price-Pridiction1
-● Problem Statement
+# Problem Statement
 ● Bob has started his own mobile company. He wants to give a tough fight to big companies likeApple, Samsung etc. He does not know how to estimate the price of mobiles his company creates. In this competitivemobile phone market, you cannot simply assume things. To solve this problem he collects sales dataof mobile phones of various companies. Bob wants to find out some relation between features of a mobile phone(eg:- RAM, Internal Memoryetc) and its selling price. But he is not so good at Machine Learning. So he needs your help to solvethis problem. In this problem we do not have to predict the actual price but a price range indicating how high the price is.
 
-● AIM =  The objective of the dataset analysis is to predict the price range of mobile phones based on specifications such as Battery Power, 3G Enabled, WiFi, Bluetooth, RAM, and other relevant features.
+# AIM 
+The objective of the dataset analysis is to predict the price range of mobile phones based on specifications such as Battery Power, 3G Enabled, WiFi, Bluetooth, RAM, and other relevant features.
 
-● Domain Analysis:-
+# Domain Analysis
  The 'Cell Phone Prediction' dataset is intricately linked to the telecommunications industry, with a concentrated focus on the mobile phone sector. This dataset is instrumental in understanding and analyzing trends, preferences, and technological advancements within the realm of mobile devices. It offers valuable insights into various features and specifications of cellphones that potentially influence their market positioning and consumer appeal.
 
-● Data Field.
+# Data Field.
 
 battery_power = Total energy a battery can store in one time measured in mAh,
 blue - Has bluetooth or not,
@@ -32,10 +33,10 @@ wifi = Has wifi or not,
 price_range = This is the target variable with value of 0(low cost), 1(medium cost), 2(highcost) and 3(very high cost).
 ● The dataset has been thoroughly examined, and it has been confirmed that there are no missing values, ensuring completeness and reliability of the data for analysis.
 
-● Conclusion:-
+# Conclusion
 We try with multiple machine learning model to predict cell phone price accurately. among them the logistic regression works well and delivering an exceptional accuracy score of 97% .our model is performing quite well across all classes with high accuracy.
 
-● Suggestion:-
+# Suggestion
 Through this further analysis i want to suggest BOB that the price of mobile is increasing or decreasing are based on features of the mobile.
 mobile with there price range :
 0: Low Price Range - Phone with basic feature are in category of low price range.
